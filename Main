@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>ALbright Edet | WDD130</title>
+    </head>
+    <body>
+<header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="wwr/">Student's Home Page</a>
+        <a href="wwr/site-plan-student">Student's Site Plan</a>
+    </nav>
+</header>
+<main>
+<h1>Albright Edet | WDD130</h1>
+<img src="images/profile.jpg" alt="Albright Edet" width="200">
+<p>I am Albright Edet from Nigeria. I am an Engineer. I love to work with my hands especially
+    at creating new things. i love to play video games alot. it helps me to relax. and i love to 
+    design.
+</p>
+</main>
+<footer>
+<p>
+    ©2024 🌴 Albright Edet 🌴 Nigeria
+</p>
+</footer>
+    </body>
+</html>
