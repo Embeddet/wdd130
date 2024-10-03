@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>ALbright Edet | WDD130</title>
-    </head>
-    <body>
-<header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albright Edet | Holy Grail Layout Example</title>
+<meta name="description" content="this web page was created by Albright Edet as a course in soft ware development just for experimental purposes only ">
+<meta name="author" content="Albright Edet">
+</head>
+<body>
+    <h1>
+        A Holy Grail Layout Example
+    </h1>
     <nav>
-        <a href="#">Home</a>
-        <a href="wwr/">Student's Home Page</a>
-        <a href="wwr/site-plan-student">Student's Site Plan</a>
+        <ul>
+            <li>
+                <a href="https://github.com/Embeddet/wdd130"> My-Git</a>
+                <a href="https://degreeportal.byupathway.org/"> My-degree-portal</a>
+            </li>
+        </ul>
     </nav>
-</header>
-<main>
-<h1>Albright Edet | WDD130</h1>
-<img src="images/profile.jpg" alt="Albright Edet" width="200">
-<p>I am Albright Edet from Nigeria. I am an Engineer. I love to work with my hands especially
-    at creating new things. i love to play video games alot. it helps me to relax. and i love to 
-    design.
-</p>
-</main>
-<footer>
-<p>
-    ©2024 🌴 Albright Edet 🌴 Nigeria
-</p>
-</footer>
-    </body>
+    <main>
+        <section>
+            <h2>
+                Heading
+            </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, ad?</p>
+        </section>
+    </main>
+    <aside>
+        <h2> Nigeria</h2>
+        <img src="images/Map.png" alt="Map of Nigeria">
+        <p>Nigeria, country located on the western coast of Africa. Nigeria has a diverse geography, with climates ranging from arid to humid equatorial. However, Nigeria’s most diverse feature is its people. Hundreds of languages are spoken in the country, including Yoruba, Igbo, Fula, Hausa, Edo, Ibibio, Tiv, and English. The country has abundant natural resources, notably large deposits of petroleum and natural gas.
+            Capital: Abuja
+            Population: (2024 est.) 228,181,000
+            Form Of Government: federal republic with two legislative houses (Senate [109]; House of Representatives [360])
+            Official Language: English
+            The national capital is Abuja, in the Federal Capital Territory, which was created by decree in 1976. Lagos, the former capital, retains its standing as the country’s leading commercial and industrial city.
+            Modern Nigeria dates from 1914, when the British Protectorates of Northern and Southern Nigeria were joined. The country became independent on October 1, 1960, and in 1963 adopted a republican constitution but elected to stay a member of the Commonwealth.</p>
+        <img src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/800x500/aba-nigeria-temple-lds-1636397-wallpaper.jpg" alt="Aba-Nigeria Temple" width="200">
+    </aside>
+    <footer>
+
+    </footer>
+</body>🌴 Albright Edet
 </html>
