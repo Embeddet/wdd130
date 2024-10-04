@@ -6,20 +6,18 @@
     <title>Albright Edet | WDD130 Assessment</title>
     <meta name="description" content="Learn how to fix common HTML validation errors, improve website structure, and write clean, semantic code for better SEO and user experience.">
     <meta name="author" content="Albright Edet">
-    <link rel="stylesheet" href="week02/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
     <h1>
-        A Holy Grail Layout Example
+        Learn about Nigeria
     </h1>
     <nav>
-        <ul>
-            <li>
+        
                 <a href="https://github.com/Embeddet/wdd130"> My-Git</a>
                 <a href="https://degreeportal.byupathway.org/"> My-degree-portal</a>
-            </li>
-        </ul>
+      
     </nav>
 </header>
     <main>
@@ -40,7 +38,7 @@
             Official Language: English
             The national capital is Abuja, in the Federal Capital Territory, which was created by decree in 1976. Lagos, the former capital, retains its standing as the country’s leading commercial and industrial city.
             Modern Nigeria dates from 1914, when the British Protectorates of Northern and Southern Nigeria were joined. The country became independent on October 1, 1960, and in 1963 adopted a republican constitution but elected to stay a member of the Commonwealth.</p>
-        <img src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/800x500/aba-nigeria-temple-lds-1636397-wallpaper.jpg" alt="Aba-Nigeria Temple" width="200">
+        <img src="images/profile.jpg" alt="Aba-Nigeria Temple" width="200">
     </aside>
     <footer>
         🌴 Albright Edet
