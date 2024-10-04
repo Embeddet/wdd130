@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <link rel="stylesheet" href="week02/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albright Edet | Holy Grail Layout Example</title>
 <meta name="description" content="this web page was created by Albright Edet as a course in soft ware development just for experimental purposes only ">
 <meta name="author" content="Albright Edet">
+
 </head>
 <body>
     <h1>
