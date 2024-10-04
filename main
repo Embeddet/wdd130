@@ -14,15 +14,13 @@
         Learn about Nigeria
     </h1>
     <nav>
+        <a href="#">Home</a>
     <a href="https://github.com/Embeddet/wdd130"> My-Git</a>
     <a href="https://degreeportal.byupathway.org/"> My-degree-portal</a>
     </nav>
 </header>
     <main>
         <section>
-            <h2>
-                Heading
-            </h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, ad?</p>
         </section>
     </main>
