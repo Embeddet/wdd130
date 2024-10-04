@@ -4,12 +4,14 @@
     <link rel="stylesheet" href="week02/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albright Edet | Holy Grail Layout Example</title>
-<meta name="description" content="this web page was created by Albright Edet as a course in soft ware development just for experimental purposes only ">
+    <title>Albright Edet | WDD130 Assessment</title>
+<meta name="description" content="Learn how to fix common HTML validation errors, improve website structure, and write clean, semantic code for better SEO and user experience.">
+">
 <meta name="author" content="Albright Edet">
 
 </head>
 <body>
+    <heade>
     <h1>
         A Holy Grail Layout Example
     </h1>
@@ -21,6 +23,7 @@
             </li>
         </ul>
     </nav>
+</heade>
     <main>
         <section>
             <h2>
@@ -42,7 +45,7 @@
         <img src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/800x500/aba-nigeria-temple-lds-1636397-wallpaper.jpg" alt="Aba-Nigeria Temple" width="200">
     </aside>
     <footer>
-
+        🌴 Albright Edet
     </footer>
-</body>🌴 Albright Edet
+</body>
 </html>
