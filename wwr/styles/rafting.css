@@ -141,3 +141,20 @@ footer p {
         height: 100px;
     }
 }
+/* Style the logo */
+.logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+    display: block; /* Ensures proper spacing */
+    margin: 0 auto 20px; /* Center it above the heading and add some space below */
+}
+
+/* If the logo is inline with the title */
+.header-container {
+    display: flex;
+    align-items: center; /* Aligns the logo and the heading vertically */
+}
+
+.header-container img {
+    margin-right: 20px; /* Adds some space between the logo and the heading */
+}
