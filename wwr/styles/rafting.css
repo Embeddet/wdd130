@@ -1,0 +1,143 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Adjust as needed */
+    background-image: url('images/raftinga.jpg'); /* Use your actual image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    z-index: 10;
+}
+
+.hero article {
+    position: absolute;
+    top: 50%; /* Adjust positioning as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    z-index: 10;
+}
+
+.hero article img {
+    width: 100px; /* Adjust image size */
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Section styling */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Adventure section images */
+section img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Social links */
+.Sociallinks a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.Sociallinks img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.Sociallinks a:hover {
+    text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero article {
+        max-width: 90%;
+    }
+
+    section img {
+        width: 150px;
+        height: 100px;
+    }
+}
