@@ -141,20 +141,24 @@ footer p {
         height: 100px;
     }
 }
+
+/* Container to align the logo and heading */
+.header-container {
+    display: flex;
+    align-items: center; /* Vertically align the logo and the heading */
+    justify-content: flex-start; /* Align both elements to the left */
+}
+
 /* Style the logo */
 .logo {
     width: 150px; /* Adjust the size as needed */
     height: auto;
-    display: block; /* Ensures proper spacing */
-    margin: 0 auto 20px; /* Center it above the heading and add some space below */
+    margin-right: 20px; /* Space between the logo and the heading */
 }
 
-/* If the logo is inline with the title */
-.header-container {
-    display: flex;
-    align-items: center; /* Aligns the logo and the heading vertically */
+/* Optional: If needed, you can style the heading to ensure it aligns perfectly */
+h1 {
+    margin: 0; /* Removes default margins */
+    font-size: 2rem; /* Adjust the size as needed */
 }
 
-.header-container img {
-    margin-right: 20px; /* Adds some space between the logo and the heading */
-}
