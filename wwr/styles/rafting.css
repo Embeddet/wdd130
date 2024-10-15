@@ -1,289 +1,292 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Updated to use Roboto */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 header h1 {
-    font-size: 2rem;
-    margin: 0;
+  font-size: 2rem;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Montserrat for headings */
 }
 
 nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Hero section */
 .hero {
-    position: relative;
-    width: 100%;
-    height: 500px; /* Adjust as needed */
-    background-image: url('images/raftinga.jpg'); /* Use your actual image path */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
+  position: relative;
+  width: 100%;
+  height: 500px; /* Adjust as needed */
+  background-image: url('images/raftinga.jpg'); /* Use your actual image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
 }
 
 .hero h1 {
-    position: absolute;
-    top: 10%; /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 3rem;
-    z-index: 10;
+  position: absolute;
+  top: 10%; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  z-index: 10;
+  font-family: 'Montserrat', sans-serif; /* Montserrat for headings */
 }
 
 .hero article {
-    position: absolute;
-    top: 50%; /* Adjust positioning as needed */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 600px;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: white;
-    z-index: 10;
+  position: absolute;
+  top: 50%; /* Adjust positioning as needed */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  z-index: 10;
+  font-family: 'Roboto', sans-serif; /* Roboto for text */
 }
 
 .hero article img {
-    width: 100px; /* Adjust image size */
-    display: block;
-    margin: 0 auto 20px;
+  width: 100px; /* Adjust image size */
+  display: block;
+  margin: 0 auto 20px;
 }
 
 /* Section styling */
 section {
-    padding: 40px;
-    text-align: center;
+  padding: 40px;
+  text-align: center;
 }
 
 section h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif; /* Montserrat for headings */
 }
 
 section p {
-    font-size: 1.1rem;
-    color: #555;
-    line-height: 1.6;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif; /* Roboto for text */
 }
 
 /* Adventure section images */
 section img {
-    width: 200px;
-    height: 150px;
-    margin: 10px;
-    border-radius: 8px;
-    object-fit: cover;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 /* Footer styling */
 footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 footer p {
-    margin: 0;
-    font-size: 1rem;
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif; /* Roboto for footer text */
 }
 
 /* Social links */
 .Sociallinks a {
-    margin: 0 10px;
-    text-decoration: none;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
 .Sociallinks img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 .Sociallinks a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.5rem;
-    }
+  .hero h1 {
+      font-size: 2.5rem;
+  }
 
-    .hero article {
-        max-width: 90%;
-    }
+  .hero article {
+      max-width: 90%;
+  }
 
-    section img {
-        width: 150px;
-        height: 100px;
-    }
+  section img {
+      width: 150px;
+      height: 100px;
+  }
 }
 
 /* Container to align the logo and heading */
 .header-container {
-    display: flex;
-    align-items: center; /* Vertically align the logo and the heading */
-    justify-content: flex-start; /* Align both elements to the left */
+  display: flex;
+  align-items: center; /* Vertically align the logo and the heading */
+  justify-content: flex-start; /* Align both elements to the left */
 }
 
 /* Style the logo */
 .logo {
-    width: 150px; /* Adjust the size as needed */
-    height: auto;
-    margin-right: 20px; /* Space between the logo and the heading */
+  width: 150px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 20px; /* Space between the logo and the heading */
 }
 
 /* Optional: If needed, you can style the heading to ensure it aligns perfectly */
 h1 {
-    margin: 0; /* Removes default margins */
-    font-size: 2rem; /* Adjust the size as needed */
+  margin: 0; /* Removes default margins */
+  font-size: 2rem; /* Adjust the size as needed */
 }
-.roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  /* <uniquifier>: Use a unique and descriptive class name*/
-/* <weight>: Use a value from 100 to 900*/
 
+/* Hero and Heading Styles */
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Heading styles using Montserrat */
 .montserrat-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-style: normal;
 }
-header{
+
+header {
   margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
+  display: grid;
+  grid-template-columns: 120px 1fr 2fr;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  max-width: 1000px;
 }
+
 .logo img {
-	margin: 0 0.25rem 0 1rem;
-	width: 64px;
-	height: auto;
+  margin: 0 0.25rem 0 1rem;
+  width: 64px;
+  height: auto;
 }
 
 h1 {
-	font-size: 2rem;
-	font-family: Acme, Arial, sans-serif;
+  font-size: 2rem;
+  font-family: "Acme", Arial, sans-serif;
 }
 
 nav {
-	text-align: right;
+  text-align: right;
 }
 
 .navigation {
-	display: flex;
-	list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .navigation li {
-	flex: 1 1 100%;
+  flex: 1 1 100%;
 }
 
 .navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
+  display: block;
+  color: navy;
+  padding: 20px;
+  text-decoration: none;
 }
 
 .navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
+  color: tomato;
+  font-weight: 700;
+  text-decoration: underline;
 }
+
 figure {
   border: thin #c0c0c0 solid;
   display: flex;
@@ -305,5 +308,3 @@ figcaption {
   padding: 3px;
   text-align: center;
 }
-  
-
