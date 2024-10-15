@@ -58,7 +58,7 @@ nav a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 600px;
-    padding: 20px;
+    padding: 2git0px;
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     color: white;
     z-index: 10;
