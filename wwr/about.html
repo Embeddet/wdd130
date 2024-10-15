@@ -14,12 +14,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
+
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Header styles */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: auto;
+        }
+
+        .company-name {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            margin-left: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Ensuring responsive layout */
+        @media (max-width: 768px) {
+            .company-name {
+                font-size: 1.5rem;
+            }
+
+            nav a {
+                margin-left: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="header-container">
-            <img src="images/rafinglogo.png" alt="Whitewater Rafting Logo" class="logo">
-            <h1>White Water Rafting Company</h1>
+        <div class="logo">
+            <img src="images/rafinglogo.png" alt="Whitewater Rafting Logo">
+        </div>
+        <div class="company-name">
+            White Water Rafting Company
         </div>
         <nav>
             <a href="index.html">Home</a>
@@ -28,6 +87,7 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
+
     <main>
         <div class="hero">
             <h1>Whitewater Rafting Company</h1>
@@ -49,33 +109,37 @@
             <img src="images/r5.jpg" alt="Adventure 5">
         </section>
     </main>
+    
     <!-- Just an image -->
     <figure>
-    <img src="images/ra.jpeg" alt="Rafting teamwork" />
-  </figure>
-<figure>
-    <img src="images/ra2.jpeg" alt="Rafting teamwork" />
-  </figure>
-  <figure>
-    <img src="images/ra3.jpeg" alt="Rafting teamwork" />
-  </figure>
-  <figure>
-    <img src="images/ra4.jpeg" alt="Rafting teamwork" />
-  </figure>
- <figure>
-    <img src="images/ra5.jpeg" alt="Rafting teamwork" />
-  </figure>
-  <!-- Image with a caption -->
-  <figure>
-    <img src="images/ra1.jpeg" alt="Rafting and wellness" />
-    <figcaption>Rafting activities</figcaption>
-  </figure>
-  <figure>
-    <figcaption><b>Edward Akinyemi:</b></figcaption>
-    <blockquote>
-      Rafting is a complete sport that is fun and engaging. You will never get a better leisure time outside rafting
-    </blockquote>
-  </figure>
+        <img src="images/ra.jpeg" alt="Rafting teamwork" />
+    </figure>
+    <figure>
+        <img src="images/ra2.jpeg" alt="Rafting teamwork" />
+    </figure>
+    <figure>
+        <img src="images/ra3.jpeg" alt="Rafting teamwork" />
+    </figure>
+    <figure>
+        <img src="images/ra4.jpeg" alt="Rafting teamwork" />
+    </figure>
+    <figure>
+        <img src="images/ra5.jpeg" alt="Rafting teamwork" />
+    </figure>
+    
+    <!-- Image with a caption -->
+    <figure>
+        <img src="images/ra1.jpeg" alt="Rafting and wellness" />
+        <figcaption>Rafting activities</figcaption>
+    </figure>
+    
+    <figure>
+        <figcaption><b>Edward Akinyemi:</b></figcaption>
+        <blockquote>
+          Rafting is a complete sport that is fun and engaging. You will never get a better leisure time outside rafting
+        </blockquote>
+    </figure>
+    
     <footer>
         <p>&copy; 2024 River Rapids Rafting. All rights reserved. Designed by Albright Edet.</p>
         <nav class="Sociallinks">
