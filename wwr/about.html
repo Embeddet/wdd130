@@ -6,143 +6,72 @@
     <title>White Water Rafting | About Us</title>
     <meta name="description" content="Learn how to fix common HTML validation errors, improve website structure, and write clean, semantic code for better SEO and user experience.">
     <meta name="author" content="Albright Edet">
-     <!-- Google Fonts Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Google Font Links -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/rafting.css">
-
-    <style>
-        /* Basic reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Header styles */
-        header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background-color: #333;
-            color: white;
-            padding: 20px;
-        }
-
-        .logo img {
-            width: 100px;
-            height: auto;
-        }
-
-        .company-name {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 2rem;
-            margin-left: 20px;
-        }
-
-        nav {
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        /* Ensuring responsive layout */
-        @media (max-width: 768px) {
-            .company-name {
-                font-size: 1.5rem;
-            }
-
-            nav a {
-                margin-left: 10px;
-            }
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
 </head>
 <body>
+
+    <!-- Header -->
     <header>
         <div class="logo">
             <img src="images/rafinglogo.png" alt="Whitewater Rafting Logo">
         </div>
-        <div class="company-name">
-            White Water Rafting Company
-        </div>
         <nav>
             <a href="index.html">Home</a>
-            <a href="about.html">About</a>
+            <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
+    <!-- Hero section -->
     <main>
-        <div class="hero">
-            <h1>Whitewater Rafting Company</h1>
-            <article>
-                <img src="images/happy.png" alt="Happy customer">
-                <p>Our purpose at White Water Rafting is to provide exhilarating and safe rafting adventures for thrill-seekers and nature lovers alike. Our mission is to connect people with the beauty of nature while fostering a spirit of teamwork, adventure, and environmental stewardship. We believe in safety, respect for the environment, and creating unforgettable experiences for every guest. Our creed is simple: "Adventure with Purpose, Respect with Action." And our motto? "Ride the Rapids, Embrace the Journey!"</p>
-            </article>
-        </div>
-        <section>
-            <h2>History</h2>
-            <p>Founded in 1998, White Water Rafting began as a small family-owned business with a passion for adventure and a deep love for the great outdoors. What started with a single raft and a handful of local river enthusiasts has since grown into a premier rafting company, offering guided tours on some of the most breathtaking rivers in the country.</p>
+        <section class="hero">
+            <h1>White Water Rafting</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.</p>
+            <img src="images/happy.png" alt="Happy customer">
         </section>
-        <section>
+
+        <!-- History section -->
+        <section class="history">
+            <h2>History</h2>
+            <div class="history-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+                <img src="images/history.png" alt="History Image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+            </div>
+        </section>
+
+        <!-- Adventure section -->
+        <section class="adventure">
             <h2>Adventure Awaits You!</h2>
-            <img src="images/r1.jpg" alt="Adventure 1">
-            <img src="images/r2.jpeg" alt="Adventure 2">
-            <img src="images/r3.jpeg" alt="Adventure 3">
-            <img src="images/r4.jpg" alt="Adventure 4">
-            <img src="images/r5.jpg" alt="Adventure 5">
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/adventure1.png" alt="Adventure 1">
+                    <figcaption>Caption 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure2.png" alt="Adventure 2">
+                    <figcaption>Caption 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure3.png" alt="Adventure 3">
+                    <figcaption>Caption 3</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure4.png" alt="Adventure 4">
+                    <figcaption>Caption 4</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
-    
-    <!-- Just an image -->
-    <figure>
-        <img src="images/ra.jpeg" alt="Rafting teamwork" />
-    </figure>
-    <figure>
-        <img src="images/ra2.jpeg" alt="Rafting teamwork" />
-    </figure>
-    <figure>
-        <img src="images/ra3.jpeg" alt="Rafting teamwork" />
-    </figure>
-    <figure>
-        <img src="images/ra4.jpeg" alt="Rafting teamwork" />
-    </figure>
-    <figure>
-        <img src="images/ra5.jpeg" alt="Rafting teamwork" />
-    </figure>
-    
-    <!-- Image with a caption -->
-    <figure>
-        <img src="images/ra1.jpeg" alt="Rafting and wellness" />
-        <figcaption>Rafting activities</figcaption>
-    </figure>
-    
-    <figure>
-        <figcaption><b>Edward Akinyemi:</b></figcaption>
-        <blockquote>
-          Rafting is a complete sport that is fun and engaging. You will never get a better leisure time outside rafting
-        </blockquote>
-    </figure>
-    
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 River Rapids Rafting. All rights reserved. Designed by Albright Edet.</p>
-        <nav class="Sociallinks">
+        <p>&copy; 2024 White Water Rafting Company. All rights reserved.</p>
+        <div class="social-links">
             <a href="https://facebook.com">
                 <img src="images/fb.jpg" alt="Facebook">
             </a>
@@ -152,8 +81,7 @@
             <a href="https://tiktok.com">
                 <img src="images/t.jpg" alt="TikTok">
             </a>
-        </nav>
+        </div>
     </footer>
 </body>
 </html>
-
