@@ -1,20 +1,111 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explore detailed information on all our white water rafting trips and book your adventure today!" />
+        <title>Trips - White Water Rafting Company</title>
+        <link rel="stylesheet" href="styles/rafting.css"> <!-- Link to the external CSS file -->
+    </head>
 <body>
     <header>
         <div class="header-container">
-            <img src="images/logo.png" alt="Whitewater Rafting Logo" class="logo">
+          <div class="logo">
+            <img src="images/rafinglogo.png" alt="White Water Rafting Logo">
+          </div>
+          <div class="title">
             <h1>White Water Rafting Company</h1>
+          </div>
         </div>
+      
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </nav>
-    </header>
-<h1>My Trips page</h1>
-<p>My first paragraph.</p>
+      </header>
 
+<section class="trip-details">
+  <div class="trip">
+    <img src="images/ra2.jpeg" alt="Rafting Trip 1">
+    <h3>Beginner Rafting Adventure</h3>
+    <p>Perfect for families and beginners. Enjoy a gentle ride with scenic views.</p>
+    <ul>
+      <li>Duration: 2 hours</li>
+      <li>Difficulty: Easy</li>
+      <li>Location: River Valley</li>
+    </ul>
+  </div>
+  <div class="trip">
+    <img src="images/ra3.jpeg" alt="Rafting Trip 2">
+    <h3>Intermediate Rapids Challenge</h3>
+    <p>An exciting adventure for those with some experience. Get ready for bigger rapids!</p>
+    <ul>
+      <li>Duration: 3 hours</li>
+      <li>Difficulty: Moderate</li>
+      <li>Location: Rapid River</li>
+    </ul>
+  </div>
+  <div class="trip">
+    <img src="images/ra4.jpeg" alt="Rafting Trip 3">
+    <h3>Advanced Rapids Expedition</h3>
+    <p>A thrilling ride through the toughest rapids. For experienced rafters only!</p>
+    <ul>
+      <li>Duration: 4 hours</li>
+      <li>Difficulty: Hard</li>
+      <li>Location: White Water Gorge</li>
+    </ul>
+  </div>
+  
+</section>
+
+<table class="trips-table">
+    <thead>
+      <tr>
+        <th>Trip Name</th>
+        <th>Duration</th>
+        <th>Difficulty</th>
+        <th>Location</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Beginner Rafting Adventure</td>
+        <td>2 hours</td>
+        <td>Easy</td>
+        <td>River Valley</td>
+        <td>$50</td>
+      </tr>
+      <tr>
+        <td>Intermediate Rapids Challenge</td>
+        <td>3 hours</td>
+        <td>Moderate</td>
+        <td>Rapid River</td>
+        <td>$75</td>
+      </tr>
+      <tr>
+        <td>Advanced Rapids Expedition</td>
+        <td>4 hours</td>
+        <td>Hard</td>
+        <td>White Water Gorge</td>
+        <td>$100</td>
+      </tr>
+    </tbody>
+  </table>
+  <section class="hero">
+    <a href="contact.html" class="cta-button">Contact Us for More Info</a>
+  </section>
+  <footer>
+    <p>&copy; 2024 River Rapids Rafting. All rights reserved. Designed by Albright Edet.</p>
+    <nav class="social-links">
+        <a href="https://facebook.com"><img src="images/fb.jpg" alt="Facebook"></a>
+        <a href="https://twitter.com"><img src="images/x.jpg" alt="Twitter"></a>
+        <a href="https://tiktok.com"><img src="images/t.jpg" alt="TikTok"></a>
+    </nav>
+</footer>
 </body>
 </html>

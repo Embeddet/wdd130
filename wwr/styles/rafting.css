@@ -1,3 +1,4 @@
+/* Reset and Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -12,37 +13,70 @@ body {
 
 /* Header styles */
 header {
-  background-color: #6a5acd;
+  background-color: #333; /* Keeping the darker shade */
   color: white;
-  padding: 20px;
+  padding: 15px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+/* Align the logo and title side by side */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: start; /* Ensures everything aligns to the left */
+  margin-bottom: 20px; /* Adds spacing between header and navigation */
+}
+
+.header-container .logo img {
+  max-width: 100px; /* Adjust logo size if necessary */
+  height: auto;
+}
+
+.header-container .title h1 {
+  font-size: 24px;
+  color: white;
+  margin-left: 15px; /* Adds space between the logo and the title */
+}
 
 .logo img {
-  width: 80px;
+  width: 80px; /* Adapting logo size */
 }
 
 nav {
   display: flex;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: 500;
+/* Navigation styling */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px; /* This spaces out the nav links */
 }
 
-nav a:hover {
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white; /* Change nav link color to white */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+  color: #ffcc00; /* Change color on hover or active */
   text-decoration: underline;
 }
+
 
 /* Main hero section */
 .hero {
   background-color: #ddd6ff;
-  padding: 40px 20px;
+  padding: 0px 0px;
   text-align: center;
 }
 
@@ -59,10 +93,32 @@ nav a:hover {
 }
 
 .hero img {
-  width: 300px;
+  width: 1490px;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff5733;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Newsletter Section */
+.newsletter {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter input, .newsletter button {
+  padding: 10px;
+  margin: 5px;
 }
 
 /* History section */
@@ -135,91 +191,29 @@ nav a:hover {
   font-size: 1rem;
 }
 
-/* Footer styles */
-footer {
-  background-color: #6a5acd;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-footer p {
-  margin-bottom: 10px;
-}
-
-.social-links img {
-  width: 30px;
-  margin: 0 10px;
-}
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 15px 0;
+/* Grid Layout */
+.site-offerings {
+  margin: 20px;
   text-align: center;
 }
 
-header .logo img {
-  max-width: 100px;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  text-align: center;
+.grid-item img {
+  width: 700px; /* Make the image take the full width of the container */
+  height: 400px; /* Set a fixed height */
 }
 
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-nav ul li a.active {
-  text-decoration: underline;
-}
-
-main {
-  padding: 20px;
-}
-
-.contact-details {
-  margin-bottom: 20px;
-}
-
-#map iframe {
-  width: 100%;
-  height: 400px;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
-/* Basic styles for the profile and form */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-color: #f4f4f4;
-}
-
+/* Profile Section */
 .profiles {
   display: flex;
   justify-content: space-around;
   margin-bottom: 40px;
+  
 }
 
 .profile {
@@ -229,8 +223,8 @@ body {
 
 .profile img {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -244,6 +238,7 @@ body {
   color: #555;
 }
 
+/* Form styles */
 form {
   background-color: #fff;
   padding: 20px;
@@ -267,12 +262,7 @@ input, textarea, button {
   border-radius: 4px;
 }
 
-input[type="radio"] {
-  width: auto;
-  margin-right: 8px;
-}
-
-input[type="checkbox"] {
+input[type="radio"], input[type="checkbox"] {
   width: auto;
   margin-right: 8px;
 }
@@ -286,4 +276,74 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+/* Footer social links */
+footer .social-links {
+  display: flex;
+  justify-content: center; /* Centers the images horizontally */
+  align-items: center; /* Centers the images vertically (if needed) */
+  gap: 20px; /* Adds space between the social media icons */
+  margin-top: 20px; /* Adds some spacing above the social media links */
+}
+
+footer .social-links img {
+  width: 40px; /* Adjust the size of the social icons */
+  height: auto;
+}
+.trip-details {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center; /* Centers the images horizontally */
+  align-items: center; /* Centers the images vertically (if needed) */
+ 
+}
+
+.trip img {
+  width: 120%; /* Make the image take the full width of the container */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensures that the image fits within the container while maintaining aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.trip {
+  max-width: 300px; /* Ensures that each trip block has a maximum width */
+  margin-bottom: 20px; /* Add space between trip blocks */
+  
+}
+
+.trip h3 {
+  font-size: 1.2em; /* Make trip titles visually consistent */
+
+}
+
+
+.trips-table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+.trips-table th, .trips-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.contact-details {
+text-align: center;
 }

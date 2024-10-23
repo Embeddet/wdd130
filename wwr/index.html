@@ -1,20 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to White Water Rafting Company - Adventure awaits!" />
+    <title>Home - White Water Rafting Company</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
 <body>
     <header>
         <div class="header-container">
-            <img src="images/logo.png" alt="Whitewater Rafting Logo" class="logo">
+          <div class="logo">
+            <img src="images/rafinglogo.png" alt="White Water Rafting Logo">
+          </div>
+          <div class="title">
             <h1>White Water Rafting Company</h1>
+          </div>
         </div>
+      
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </nav>
-    </header>
-<h1>My Home page</h1>
-<p>My first paragraph.</p>
+      </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/r5.jpg" alt="Rafting Adventure">
+        <h2>Adventure Awaits You</h2>
+        <p>Experience the thrill of whitewater rafting like never before!</p>
+        <a href="trips.html" class="cta-button">Explore Trips</a>
+    </section>
+
+    <!-- Newsletter Signup Form -->
+    <section class="newsletter">
+        <h3>Stay Updated</h3>
+        <form action="submit-newsletter" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Grid Layout Section -->
+    <section class="site-offerings">
+        <h3>Why Choose White Water Rafting?</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="images/r2.jpeg" alt="Exciting Rapids">
+                <h4>Exciting Rapids</h4>
+                <p>Our guided rafting tours take you on an exhilarating journey through Class III and IV rapids.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/raftinga.jpg" alt="Scenic Views">
+                <h4>Scenic Views</h4>
+                <p>Witness the beauty of nature as you raft through pristine rivers and forests.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 River Rapids Rafting. All rights reserved. Designed by Albright Edet.</p>
+        <nav class="social-links">
+            <a href="https://facebook.com"><img src="images/fb.jpg" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/x.jpg" alt="Twitter"></a>
+            <a href="https://tiktok.com"><img src="images/t.jpg" alt="TikTok"></a>
+        </nav>
+    </footer>
 </body>
 </html>
